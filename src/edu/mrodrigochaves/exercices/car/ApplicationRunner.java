@@ -4,7 +4,7 @@ public class ApplicationRunner {
     
     public static void main(String[] args) {
         
-        Car car1 = new Car();
+        MyCar car1 = new MyCar();
 
         car1.setColor("Blue");
         car1.setModel("Gol G6");
@@ -16,7 +16,7 @@ public class ApplicationRunner {
         System.out.println(car1.totalTankValue(5.84));
 
 
-        Car car2 = new Car("Red","Tesla Model 3",55);
+        MyCar car2 = new MyCar("Red","Tesla Model 3",55);
         
         System.out.println(car2.getColor());
         System.out.println(car2.getModel());

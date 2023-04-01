@@ -1,16 +1,16 @@
 package edu.mrodrigochaves.exercices.car;
 
-public class Car {
+public class MyCar {
 
     String color;
     String model;
     int tankCapacity;
 
-    Car() {
+    MyCar() {
 
     }
 
-    Car(String color, String model, int tankCapacity) {
+    MyCar(String color, String model, int tankCapacity) {
         this.color = color;
         this.model = model;
         this.tankCapacity = tankCapacity;
